@@ -1,0 +1,182 @@
+.bg{
+    background-image: url('wallpaper.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+.start-div .start{
+    background-image: url('start.png');
+    background-repeat: no-repeat;   
+    background-size: contain; 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 16%;
+    height: 4.3%;      
+    cursor: context-menu;
+}
+.start:hover{
+    background-image: url('start_hover.png');
+}
+.recyclebin{
+    position: absolute;
+    right: 30px;
+    bottom: 7%;
+}
+.bin-img{
+    width: 35px;
+    height: 35px;
+    padding-left: 7px;
+}
+.title-comp{
+    margin-top: 1px;
+    color: rgb(238, 230, 230);
+    font-weight: 80;
+    font-size: 11px;
+    margin-left: -2px;
+    font-family: Tahoma, "Noto Sans", sans-serif;
+}
+.title-docs{
+    margin-top: 1px;
+    color: rgb(238, 230, 230);
+    font-weight: 80;
+    font-size: 11px;
+    margin-left: -3px;
+    font-family: Tahoma, "Noto Sans", sans-serif;
+}
+.title-net{
+    margin-top: 1px;
+    color: rgb(238, 230, 230);
+    font-weight: 80;
+    font-size: 11px;
+    margin-left: -5px;
+    font-family: Tahoma, "Noto Sans", sans-serif;
+}
+.title-bin{
+    margin-top: 1px;
+    color: rgb(238, 230, 230);
+    font-weight: 80;
+    font-size: 11px;
+    margin-left: -3px;
+    font-family: Tahoma, "Noto Sans", sans-serif;
+}
+.computer{
+    position: fixed;
+    left: 30px;
+    top: 5%;
+}
+.comp-img{
+    width: 41px;
+    height: 35px;
+    padding-left: 13px ;    
+}
+.mydocs{
+    position: fixed;
+    left: 30px;
+    top: 15%;
+}
+.docs-img{
+    width: 36px;
+    height: 30px;
+    padding-left: 13px ;    
+}
+.explorer{
+    position: fixed;
+    left: 30px;
+    top: 25%;
+}
+.int-img{
+    width: 35px;
+    height: 35px;
+    padding-left: 13px ;    
+}
+.mine{
+    position: fixed;
+    left: 30px;
+    top: 35%;
+}
+.mine-img{
+    width: 35px;
+    height: 33px;
+    padding-left: 13px ;
+}
+.title-mine{
+    margin-top: 1px;
+    color: rgb(238, 230, 230);
+    font-weight: 80;
+    font-size: 11px;
+    padding-left: 4px;
+    font-family: Tahoma, "Noto Sans", sans-serif;
+}
+.paint{
+    position: fixed;
+    left: 30px;
+    top: 45%;
+}
+.paint-img{
+    width: 35px;
+    height: 42px;
+    padding-left: 13px ;
+}
+.title-paint{
+    margin-top: 1px;
+    color: rgb(238, 230, 230);
+    font-weight: 80;
+    font-size: 11px;
+    padding-left: 24px;
+    font-family: Tahoma, "Noto Sans", sans-serif;
+}
+.taskbar .task-img{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 4%;
+}
+.icon-tray{
+    background-image: url('icon-tray.png');
+    background-repeat:no-repeat;
+    background-size: cover;    
+    position: fixed;
+    right: 0px;
+    bottom: 0;
+    width: 160px;
+    height: 4.3%;  
+    z-index: initial;    
+}
+.icon-tray #time{
+    position: fixed;
+    bottom: 1px;
+    right: 20px;
+    z-index: 4;
+    font-size: 12px;
+    color: rgb(245, 245, 245);
+    font-weight: 100;
+    font-family: Tahoma, "Noto Sans", sans-serif;
+    margin-bottom:7.5px;
+}
+.start-expand{
+    /* visibility: hidden; */
+    left: 0;
+    bottom: 31.5%;
+    height: 300px;
+    width: 20%;
+    position: fixed;
+}
+.error{
+    display: none;
+}
+.icon-tray .icons{
+    position: fixed;
+    right: 80px;
+    bottom: 1px;
+    margin-bottom: 1.5px;
+}
+@media only screen and (max-width: 762px) {
+    
+    .error .message{
+        display: block;
+        text-align: center;
+        ;
+    }
+  }
